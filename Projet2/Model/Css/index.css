@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Ibarra+Real+Nova|Lora&display=swap');
+
+* {
+	font-family: "Gelasio","Ibarra Real Nova","Lora"; 
+}
+
+body {
+	background-color: #fff;
+}
+
+
+/* ------Début Class Réutilisable---------- */
+.colorbleu{
+	background-color:blue;
+}
+
+.flex{
+	display: flex;
+}
+/* ------Fin Class---------- */
+
+/* Header Début */
+
+/* Header Fin */
+
+/* Main Début */
+	/* Ma section1 Début */
+
+	/* Ma section1 Fin */
+/* Main Finis */
+
+/* Footer Début */
+
+/* Footer Fin */
+
+
+/* Media queries */
+@media (max-width: 1250px) { 
+	.colorbleu{
+		background-color:rgb(102, 199, 23);
+	}
+}
+
+@media (max-width: 765px) { 
+	.colorbleu{
+		background-color:rgb(96, 171, 221);
+	}
+}
+
+@media (max-width: 452px) { 
+	.colorbleu{
+		background-color:rgb(194, 87, 16);
+	}
+
+}
+/* Fin Media queries */
