@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Ibarra+Real+Nova|Lora&display=swap');
+
+* {
+	font-family: "Gelasio","Ibarra Real Nova","Lora"; }
+
+body {
+	background-color: #fff;}
+
+
+/* ------Début Class---------- */
+
+.ColTailleGeneral{	
+	position:relative;
+	width: 100%;
+	height: 100%;
+	text-align:center; }
+
+.ColTaille{
+	position:relative;
+	max-width: 80%;
+	left:20%;
+	height: 100%; }
+
+.ColoneGeneral {
+	position: relative;
+	left:40px;
+	width: 80%;
+	height: 100px;
+	display: flex;
+	padding: 10px;
+	margin-top: 60px; }
+
+.ColoneGeneral h2 {
+	font-size: 18px;
+	color: #4d4d4d;
+	padding-bottom: 10px;
+	max-width: 100%; }
+
+.flex{
+	display:flex;
+}
+
+.PlacementMainTop{
+	position:relative;
+	left:25%;
+	width: 70%;
+	text-align:center;
+}
+
+.PlacementMainSec{
+	position:relative;
+	left:25%;
+	width: 75%;
+	text-align:center;
+}
+
+.ContainerEducation {
+	text-align: center;
+	width: 300px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-left: 50px; }
+
+.ContainerExperience {
+	text-align: center;
+	width: 300px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-left: 50px; }
+
+/* ------Fin Class---------- */
+
+/* Section Gauche Début */
+
+#SectionGauche {
+	background: #f5f5f5;
+	position: fixed;
+	max-width: 15%;
+	height: 100%;
+	z-index: 1;
+	padding: 3em 40px 3em 3em; }
+
+#SectionGauche #logo{
+	font-size:30px;
+	color:#555;
+	text-shadow: 1px 1px #4A4A4A;
+	padding-top: 20px; }
+
+#SectionGauche #main-menu {
+	padding-top: 20px; }
+
+#SectionGauche #main-menu ul li {
+	margin: 0 0 15px 0;
+	font-size: 16px;
+	font-weight: bold; }
+
+#SectionGauche #main-menu ul li a {
+	color: rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+	position: relative;
+	padding: 10px 0; }
+
+#SectionGauche #main-menu ul li a:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	bottom: 7px;
+	left: 0;
+	right: 0;
+	background-color: #ec7e2c;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+	
+#SectionGauche #main-menu ul li a:hover {
+	text-decoration: none;
+	color: black; }
+	
+#SectionGauche #main-menu ul li a:hover:after {
+	visibility: visible;
+	transform: scaleX(1); }
+	
+#SectionGauche #main-menu ul li.active a {
+	color: #000000; }
+	
+#SectionGauche #main-menu ul li.active a:after {
+	visibility: visible;
+	transform: scaleX(1); }
+
+#SectionGauche #InfoPerso{
+	position: relative;
+	right: 20px;
+	font-size: 14px;
+	width: 115%;
+	line-height: 200%;
+	border-top: 0.1em solid #ec7e2c; }
+
+#SectionGauche #InfoPerso p{
+	padding-top:5%; }
+
+
+/* Section Gauche Finis */
+
+#InfoTop{
+	position:relative;
+	width: 100%;
+	text-align:center;
+	background-image: url(img/bg_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 1000px; }
+
+/* Section MainTop */
+
+header section div{
+	position:relative;
+	top:30px;
+	display:flex; 
+	width: 500px;}
+
+header section div a{
+	text-decoration: none;
+	color: #464646;}
+
+header section div p{
+	float:right;
+	font-size: 14px;
+	position: relative;
+	top:20px;
+	left:10px;
+	text-decoration: none;
+	color: #464646;}
+	
+#ImgPerso {
+	width: 20%;
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px #4A4A4A; }
+
+header section article h1 {
+	font-size: 28px;
+	color:#464646;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	 }  
+
+header section article h2 {
+	font-size: 24px;
+	color:#464646;
+	margin-bottom:20px;
+	transition: all 2s ease; }
+
+header section article p {
+	color: #f7f7f7;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px; }
+
+.link{
+	color: #ec7e2c;
+	border-bottom: 0.01em solid #ec7e2c; }
+	  
+.link:hover{
+	color: #b3b3b3; }
+
+/* Section MainTop Finis */
+
+
+#Competence{
+	position:relative;
+	width: 100%;
+	text-align:center;
+	background-color: #f7f7f7;
+	height: 800px;
+	 }
+
+#Competence h1{
+	position: relative;
+	left:20%;
+	color: #4d4d4d;
+	max-width:50%;
+	border-bottom: 0.01em solid #ec7e2c;
+	padding-bottom:10px;
+	padding-top: 20px; }
+
+#Competence p{
+	position: relative;
+	right:100px;
+	margin: auto;
+	color: #4d4d4d;
+	font-size: 20px;
+	max-width:50%;
+	padding-top: 30px;
+	padding-bottom: 30px; }
+/* ProgressBar Début */
+
+/* ProgressBar de la Colone1 Début*/
+
+.Container {
+  margin: 0px 20px;
+  width: 500px;
+  max-width: 700px;
+  text-align: center; }
+
+.FontBar {
+  padding: 3px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.25);}
+
+.ProgressMoved1 .ProgressBar1 {
+	display:none;
+  	width: 60%;
+  	border-radius: 30px;
+  	background-color: #ec7e2c;
+  	animation: ProgressAnimationHTML 6s; }
+
+@keyframes ProgressAnimationHTML {
+  0%   { width: 5%; background-color: #F9BCCA;}
+  100% { width: 60%; background-color: #ec7e2c; } }
+
+.ProgressMoved2 .ProgressBar2 {
+	display:none;
+  width: 80%; 
+  border-radius: 30px;
+  background-color: #ec7e2c;  
+  animation: ProgressAnimationPhotoshop 6s; }
+
+@keyframes ProgressAnimationPhotoshop {
+  0%   { width: 5%; background-color: #F9BCCA;}
+  100% { width: 80%; background-color: #ec7e2c; } }
+
+.ProgressMoved3 .ProgressBar3 {
+	display:none;
+  width: 40%; 
+  border-radius: 30px;
+  background-color: #ec7e2c;  
+  animation: ProgressAnimationDatabasePhPMyAdmin 6s; }
+
+@keyframes ProgressAnimationDatabasePhPMyAdmin {
+  0%   { width: 5%; background-color: #F9BCCA;}
+  100% { width: 40%; background-color: #ec7e2c; } }
+
+/* ProgressBar de la Colone1 Finis */
+
+/* ProgressBar de la Colone2 Début */
+
+.ProgressMoved4 .ProgressBar4 {
+	display:none;
+  width: 40%; 
+  border-radius: 30px;
+  background-color: #ec7e2c;  
+  animation: ProgressAnimationJavascript 6s; }
+
+@keyframes ProgressAnimationJavascript {
+  0%   { width: 5%; background-color: #F9BCCA;}
+  100% { width: 40%; background-color: #ec7e2c; } }
+
+.ProgressMoved5 .ProgressBar5 {
+	display:none;
+  width: 80%; 
+  border-radius: 30px;
+  background-color: #ec7e2c;  
+  animation: ProgressAnimationUI 6s; }
+
+@keyframes ProgressAnimationUI {
+  0%   { width: 5%; background-color: #F9BCCA;}
+  100% { width: 80%; background-color: #ec7e2c; } }
+
+.ProgressMoved6 .ProgressBar6 {
+	display:none;
+  width: 70%; 
+  border-radius: 30px;
+  background-color: #ec7e2c;  
+  animation: ProgressAnimationLinux 6s; }
+
+@keyframes ProgressAnimationLinux {
+  0%   { width: 5%; background-color: #F9BCCA;}
+  100% { width: 70%; background-color: #ec7e2c; } }
+
+/* ProgressBar de la Colone2 Finis */
+
+#Education{
+	position:relative;
+	width: 100%;
+	text-align:center;
+	background-image: url(img/bg_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px; }
+
+#Education article div{
+	position:relative;
+	left:100px;
+	max-width: 75%; }
+
+#Education h1{
+	position: relative;
+	left:20%;
+	color: #4d4d4d;
+	max-width:50%;
+	border-bottom: 0.01em solid #ec7e2c;
+	padding-bottom:10px;
+	padding-top: 20px; }
+
+#Education h2 {
+	font-size: 20px;
+	color: #4d4d4d;}
+
+#ColMainEduc {
+	position: relative;
+	margin-top: 100px;
+	left:14%;
+	width: 86%;
+	display: flex; }
+
+#Experience{
+	position:relative;
+	width: 100%;
+	text-align:center;
+	background-color: #f7f7f7;
+	height: 600px; }
+
+#Experience article div{
+	position:relative;
+	left:100px;
+	max-width: 75%; }
+
+#Experience article div{
+	position:relative;
+	left:100px;
+	max-width: 75%; }
+
+#Experience h1{
+	position: relative;
+	left:20%;
+	color: #4d4d4d;
+	max-width:50%;
+	border-bottom: 0.01em solid #ec7e2c;
+	padding-bottom:10px;
+	padding-top: 20px; }
+
+/* Section Expérience fin */
+
+#Experience p{
+	position: relative;
+	left:38%;
+	color: #4d4d4d;
+	width:30%;
+	border-top: 0.01em solid #ec7e2c;
+	padding-bottom:2%;
+	padding-top:10px; }
